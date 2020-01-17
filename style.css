@@ -52,7 +52,6 @@ img {
   object-fit: cover;
 }
 
-
 #nav {
   height: auto;
 }
@@ -62,6 +61,7 @@ img {
   margin-bottom:20px;
   margin-left: 100px;
   margin-right:100px;
+
 }
 
 ul {
@@ -103,8 +103,7 @@ h1 {
 
 
 p {
-  padding: 10px;
-  font-size: 17pt;
+  font-size: 19pt;
   text-align:center;
   font-weight:bold;
   display: block;
@@ -115,7 +114,7 @@ p {
 #leftcolumn {
    width: 48%;
    float: left;  
-   margin-bottom: 20px;
+   margin-bottom: 15px;
    margin-left: 0px;
    margin-right: 5px;
    margin-top: 0px;
@@ -128,7 +127,7 @@ p {
 #rightcolumn {
    width: 48%;
    float:right;
-   margin-bottom:20px;
+   margin-bottom:15px;
    margin-left: 5px;
    margin-right: 0px;
    margin-top: 0px;
@@ -145,13 +144,15 @@ p {
    clear: both;
    text-align:center;
    font-size:8pt;
+   padding-bottom:20px;
 }
 
 
 #logosmall {
 overflow: auto;
-width:20%;
-height:9%;
+height:auto;
+width:250px;
+padding-top:20px;
 }
    
 #logosmall::after {
